@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+    <meta name="description" content="पैक-मैन - एक क्लासिक HTML5 गेम। खाओ सारे दाने, बचो भूतों से!">
+    <title>🎮 पैक-मैन गेम</title>
+    <link rel="shortcut icon" href="favicon.png">
+    <link rel="stylesheet" href="./static/style/index.css">
+</head>
+<body>
+    <div class="wrapper">
+
+        <header class="app-header">
+            <div class="header-inner">
+                <div class="logo-area">
+                    <span class="logo-icon">🎮</span>
+                    <div class="logo-text">
+                        <h1>पैक-मैन</h1>
+                        <p>Pac-Man Classic</p>
+                    </div>
+                </div>
+                <div class="header-badge">🇮🇳 Made for India</div>
+            </div>
+        </header>
+
+        <div class="container">
+
+            <div class="mod-panel">
+                <div class="canvas-wrap">
+                    <canvas id="canvas" width="960" height="640">आपका ब्राउज़र Canvas को सपोर्ट नहीं करता।</canvas>
+                </div>
+                <div class="controls-info">
+                    <div class="key-hint">
+                        <span class="key">⬆ ⬇ ⬅ ➡</span> <span>चलाने के लिए</span>
+                        <span class="key">Space</span> <span>रोकें / चालू करें</span>
+                    </div>
+                    <div class="touch-hint">📱 मोबाइल पर: स्क्रीन पर स्वाइप करें</div>
+                </div>
+            </div>
+
+            <div class="mod-intro">
+                <div class="intro-header">
+                    <h2>🕹️ पैक-मैन गेम</h2>
+                    <p class="subtitle">एक क्लासिक आर्केड गेम</p>
+                </div>
+                <div class="intro-body">
+                    <div class="feature-grid">
+                        <div class="feature-item">🟡 <span>सारे दाने खाओ</span></div>
+                        <div class="feature-item">👻 <span>भूतों से बचो</span></div>
+                        <div class="feature-item">⚡ <span>पावर-अप लो</span></div>
+                        <div class="feature-item">🏆 <span>12 लेवल</span></div>
+                    </div>
+                    <p class="intro-desc">पैक-मैन एक क्लासिक 80s आर्केड गेम है। इस HTML5 वर्शन में स्मार्ट भूत हैं जो आपको घेरने की कोशिश करते हैं। सभी दाने खाओ और अगले लेवल पर जाओ!</p>
+                </div>
+            </div>
+
+            <div class="mod-howto">
+                <h3>🎯 कैसे खेलें?</h3>
+                <ol>
+                    <li>Arrow Keys या WASD से पैक-मैन को चलाएं</li>
+                    <li>सभी छोटे दाने (dots) खाएं</li>
+                    <li>बड़े चमकते दाने (Power Pellet) खाने पर भूत कमज़ोर हो जाते हैं</li>
+                    <li>कमज़ोर भूतों को खाकर ज़्यादा पॉइंट पाएं</li>
+                    <li>Space बार से गेम रोकें या चालू करें</li>
+                </ol>
+            </div>
+
+        </div>
+
+        <footer class="app-footer">
+            <p>🎮 पैक-मैन गेम &nbsp;|&nbsp; HTML5 Canvas &nbsp;|&nbsp; 🇮🇳 भारत के लिए</p>
+        </footer>
+
+    </div>
+
+    <script src="./static/script/game.js"></script>
+    <script src="./static/script/index.js"></script>
+</body>
+</html>
